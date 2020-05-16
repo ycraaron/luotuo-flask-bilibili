@@ -1,3 +1,4 @@
 {
-    "python.pythonPath":"/Users/aaron/.local/share/virtualenvs/flask-bilibili-TrCTw8x6/bin" 
+    "python.pythonPath": "/Users/aaron/.local/share/virtualenvs/flask-bilibili-TrCTw8x6/bin",
+    "python.formatting.provider": "autopep8"
 }
