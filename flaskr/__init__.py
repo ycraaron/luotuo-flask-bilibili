@@ -1,6 +1,7 @@
 import os
 
 from flask import Flask
+from flask import request
 
 ## 数据库实例的创建
 ## 利用工厂模式去创建flask这个实例
@@ -77,5 +78,4 @@ def create_app(test_config=None):
             else:
                 return dict(name='bushi luotuo from POST', fans=1000000)
             return '1'
-
     return app
